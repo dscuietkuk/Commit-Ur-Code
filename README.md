@@ -1,1 +1,1 @@
-<h1 align="Center"> 👩🏻‍💻 Commit-Your-Code 👨🏻‍💻</h1>
+<h1 align="Center"> 👩🏻‍💻 Commit-Ur-Code 👨🏻‍💻</h1>
