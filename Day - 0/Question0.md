@@ -31,4 +31,5 @@ Output:<br>
 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
 </strong>
 <hr>
-see [`Rules`](https://github.com/dscuietkuk/Commit-Ur-Code/#-rules-you-should-follow-%EF%B8%8F-)
+
+Must follow [`Rules`](https://github.com/dscuietkuk/Commit-Ur-Code/#-rules-you-should-follow-%EF%B8%8F-)
