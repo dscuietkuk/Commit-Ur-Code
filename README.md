@@ -14,3 +14,13 @@ Coding is not something that you can learn in a day or two .So,the event will go
 Besides these a certificate🎓 will also be provided .
 <h3 align="Center">Are you ready for the code-ride ?</h3>
 </p>
+ <br>
+<h2 align="Center"> Rules you should follow ⚖️ </h2>
+
+⭐Fork the repository, add your file, and create a new pull request.<br>
+⭐You will be given one question daily, you have to submit that between 12 am to 11:59 pm.<br>
+⭐You have to write your code in only these languages, C++, Java, Python.<br>
+⭐Make sure that the extension is valid. For C++ it should be .cpp, for python it should  be .py, for java it should be .java.<br>
+⭐The File should be executable which means there should not be any error in the code.<br>
+⭐In order to get Certificate of participation one must have at least 4 accepted PR’s.<br>
+( Excluding Demo Question )
