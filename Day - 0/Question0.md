@@ -21,12 +21,12 @@ Print a line that contains all values of n during the algorithm for all test cas
 <h5>1≤n≤1e6</h5>
 <strong>Example
 
-Input:
+Input:<br>
 2<br>
 3<br>
 7<br>
 
-Output:
+Output:<br>
 3 10 5 16 8 4 2 1<br>
 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
 </strong>
