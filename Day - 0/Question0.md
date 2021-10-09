@@ -22,7 +22,7 @@ Print a line that contains all values of n during the algorithm for all test cas
 <strong>Example
 
 Input:
-2
+2<br>
 3<br>
 7<br>
 
