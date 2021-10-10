@@ -24,3 +24,7 @@ Besides these a certificate🎓 will also be provided .
 ⭐The File should be executable which means there should not be any error in the code.<br>
 ⭐In order to get Certificate of participation one must have at least 4 accepted PR’s.<br>
 ( Excluding Demo Question )
+<br>
+<hr>
+
+For Queries and furthur updates join our  [`Slack`](https://join.slack.com/t/dscuietkuk/shared_invite/zt-p8wy3a5y-dMvK_owfM790S2meacI9bQ) Workspace 🔗 
