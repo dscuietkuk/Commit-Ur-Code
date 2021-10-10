@@ -45,4 +45,4 @@ So, he reaches the point 2.<br>
 
 Must follow [`Rules`](https://github.com/dscuietkuk/Commit-Ur-Code/#-rules-you-should-follow-%EF%B8%8F-)
 <br>
-Also Your submissions will not be considered After <h5>11:59 pm 🕛 11-10-2021 </h5>
+Also Your submissions will not be considered After <strong>11:59 pm 🕛 11-10-2021 </strong>
