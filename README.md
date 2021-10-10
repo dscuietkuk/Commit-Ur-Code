@@ -23,7 +23,8 @@ Besides these a certificate🎓 will also be provided .
 ⭐Make sure that the extension is valid. For C++ it should be .cpp, for python it should  be .py, for java it should be .java.<br>
 ⭐The File should be executable which means there should not be any error in the code.<br>
 ⭐In order to get Certificate of participation one must have at least 4 accepted PR’s.<br>
-( Excluding Demo Question )
+( Excluding Demo Question )<br>
+⭐You have to submit your PR's in the required folder specially not in the outer-most folder and also do not create PR's in any branch other than main.<br>
 <br>
 <hr>
 
