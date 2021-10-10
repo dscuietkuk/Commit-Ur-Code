@@ -1,4 +1,4 @@
-<h1 align="Center">🦘 Kangaroo & Distance Delima 🛣️</h1>
+<h1 align="Center">🦘 Kangaroo & Distance Dilemma 🛣️</h1>
 <h4>Question 1</h4>
 
 A kangaroo🦘 starts at the point 0. In his first turn, he can make a jump of 1 unit. <br>
@@ -25,7 +25,7 @@ you have to find if the kangaroo can reach that point or not.if yes print “YES
 Input:<br>
 N = 3<br>
 Output:<br>
-False<br>
+NO<br>
 Explanation:<br>
 The kangaroo can't reach the position 3.<br>
 
@@ -34,7 +34,7 @@ Example 2:<br>
 Input:<br>
 N = 2<br>
 Output:<br>
-True<br>
+YES<br>
 Explanation:<br>
 The kangaroo will jump to position 1 in the first jump.<br>
 Now, he is at a distance of 1 from the start, so he can jump 1 unit.<br>
