@@ -5,7 +5,7 @@ int main(){
    int t;
    cin>>t;
    while(t--){
-       int n;
+       long long n;
        cin>>n;
        
        if((n & (n-1)) ==0)
