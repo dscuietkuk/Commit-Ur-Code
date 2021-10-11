@@ -10,7 +10,7 @@ int main()
        int i,n,flag=0,x;
        cin>>x;
        
-    for(i=0;i<17;i++)
+    for(i=1;i<=18;i++)
        {
          n=pow(2,i);
          if(n==x)
