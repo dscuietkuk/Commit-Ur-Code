@@ -3,7 +3,7 @@ while (t>0):
     n = int(input())
     i = 0
     if (i==n):
-        print("YES")
+        print("NO")
     else:
         i=1
         while (i<n):
