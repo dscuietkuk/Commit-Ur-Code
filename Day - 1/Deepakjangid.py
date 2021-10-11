@@ -4,7 +4,7 @@ while(T>0):
     x=int(input())
     T-=1
 
-    for i in range(17):
+    for i in range(18):
         n=2^i
         if(n==x):
             flag=1
