@@ -1,5 +1,5 @@
 # Taking input 
-n = int(input("N = "))
+n = int(input())
 for i in range(1):
     x = 0
     for j in range(n+1):
