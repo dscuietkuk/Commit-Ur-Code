@@ -15,7 +15,7 @@ First line will contain the number of test cases than T test cases followers, ea
 you have to find if the kangaroo can reach that point or not.if yes print “YES” else print “NO”.
 
 <strong>Constraints</strong>
-<h5>1<=N<=1e18</h5>
+<h5>0<=N<=1e18</h5>
 
 <strong>Time limit,Memory limit</strong>
 <h5> 0.5s ,512 MB </h5>
