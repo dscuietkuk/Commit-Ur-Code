@@ -12,9 +12,9 @@ class Solution {
     string canJump(long long N) {
         
         if(isPowerOfTwo(N))
-            return "True";
+            return "YES";
         else
-            return "False";
+            return "NO";
     }
 };
 int main(){
