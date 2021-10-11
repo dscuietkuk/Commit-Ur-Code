@@ -21,9 +21,9 @@ int main()
        }
        
        if(flag==1)
-         cout<<"True\n";
+         cout<<"Yes\n";
        else
-         cout<<"False\n";
+         cout<<"No\n";
     }
     return 0;
 }
