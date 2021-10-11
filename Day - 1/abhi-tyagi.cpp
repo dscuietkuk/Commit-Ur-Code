@@ -1,19 +1,28 @@
-#include<math.h>
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-bool jump(long long n)
-{
-if(n==0)
-return false;
+class answer {
+    public:
+      bool powerOfTwo(int x){
+          return x && (!(x&(x-1)));
+      }
+       
+      string canJump(int n){
+          if(powerOfTwo(n))
+            return "YES";
+          else
+            return "NO";
+      }
+};
 
-return (ceil(log2(n)) == floor(log2(n)));
-}
-
-int main()
-{
-	jump(3)? cout<<"YES"<<endl: cout<<"NO"<<endl;
-	jump(2)? cout<<"YES"<<endl: cout<<"NO"<<endl;
-
-	return 0;
+int main() {
+    int T;
+    cin>>T;
+    while(T--) {
+        int N;
+        std::cin >> N;
+        answer obj;
+        std::cout << obj.canJump(N)<< std::endl;
+    }
+    return 0;
 }
