@@ -17,22 +17,26 @@ int main(){
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
 
-  ll n;
-  cin >> n;
-  ll i = 1, x = 1;
-  bool flag = 0;
+  ui test;
+  cin >> test;
+  while(test--){
+    ll n;
+    cin >> n;
+    ll i = 1, x = 1;
+    bool flag = 0;
 
-  while(i <= n){
-    if(i == n){
-      flag = 1;
-      break;
+    while(i <= n){
+      if(i == n){
+	flag = 1;
+	break;
+      }
+      i += x;
+      x = i;
     }
-    i += x;
-    x = i;
-  }
 
-  if(flag) cout << "YES\n";
-  else cout << "NO\n";
+    if(flag) cout << "YES\n";
+    else cout << "NO\n";
+  }
   
   return 0;
 }
