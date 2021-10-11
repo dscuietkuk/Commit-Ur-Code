@@ -12,7 +12,7 @@ int main()
         {
             x += x;
         }
-        if (x == n)
+        if (x == n || n==0)
         {
             cout << "YES" << endl;
         }
