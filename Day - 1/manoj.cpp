@@ -7,9 +7,9 @@ bool isPowerof2(long long N){
 }
 string kangaroo(long long N){
     if(isPowerof2(N))
-    return "True";
+    return "YES";
     else 
-    return "False";
+    return "NO";
 }
 int main(){
     int t;
