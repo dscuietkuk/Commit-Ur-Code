@@ -2,7 +2,7 @@
 using namespace std;
 bool isPowerof2(long long N){
     if(N==0)
-    return "NO";
+    return false;
     return ((N&(N-1))==0);
 }
 string kangaroojump(long long N){
