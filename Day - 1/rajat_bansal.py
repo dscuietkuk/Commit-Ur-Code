@@ -2,7 +2,7 @@ import math
 
 
 def can_reach(x):
-    if x in (0, 1):
+    if x == 1:
         return True
     return math.log2(x) == int(math.log2(x))
 
