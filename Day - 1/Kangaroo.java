@@ -13,7 +13,7 @@ class Kangaroo
 		    long x=0;
 		    while(Math.pow(2,x)<n)
 		        x++;
-		    if(n==Math.pow(2,x)||n==0)
+		    if(n==Math.pow(2,x)&&n!=0)
 		       bw.write("YES"+"\n");
 		    else
 		       bw.write("NO"+"\n");
