@@ -1,5 +1,5 @@
 def recurr(n):
-    if n ==1 or n==0:
+    if n ==1:
         print("yes")
 
     elif n<1:
