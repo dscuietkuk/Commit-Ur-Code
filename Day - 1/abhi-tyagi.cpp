@@ -19,7 +19,7 @@ int main() {
     int T;
     cin>>T;
     while(T--) {
-        int N;
+        int N=0;
         std::cin >> N;
         answer obj;
         std::cout << obj.canJump(N)<< std::endl;
