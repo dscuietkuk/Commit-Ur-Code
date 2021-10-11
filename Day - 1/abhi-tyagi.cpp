@@ -13,7 +13,6 @@ return (ceil(log2(n)) == floor(log2(n)));
 int main()
 {
     long long N;
-    cout<<"Point at distance=";
     std::cin >>N;
 	jump(N)? cout<<"Yes"<<endl: cout<<"No"<<endl;
 
