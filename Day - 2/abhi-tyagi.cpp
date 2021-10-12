@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-    int T, x;
+    int T;
     cin>>T;
     while(T--) {
-        int N=0;
+        int N=0, x=0;
         cin>>N;
         int a[N];
         int b[N];
@@ -16,7 +16,7 @@ int main() {
             cin>>b[i];
         }
         for(int i=0;i<N;++i) {
-            if((a[i]==b[i])&&(a[i]==1)) {
+            if((a[i]&b[i])==1) {
                 x=1;
                 break;
             }
