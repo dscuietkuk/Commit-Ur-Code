@@ -6,7 +6,7 @@ def possibility(cols,row1,row2):
 
 
 for t in range(int(input())):
-    Cols = int(input())
+    cols = int(input())
     row1 = input()
     row2 = input()
     if (possibility(cols,row1,row2)):
