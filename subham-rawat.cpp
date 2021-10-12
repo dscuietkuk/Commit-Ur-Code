@@ -30,6 +30,7 @@ int main(){
         }
         if(i==n-1 && j==1) cout<<"YES";
         else cout<<"NO";
+        cout<<endl;
     }
 
     return 0;
