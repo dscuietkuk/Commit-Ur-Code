@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-bool check(int i,int j,int rows,int cols, vector<vector<char>>&arr)
+bool check(int i,int j,int rows,int cols, vector<vector<char> >&arr)
 {
     if(i==1 &&  j==cols-1)
     return true;
@@ -37,7 +37,7 @@ int main()
     {
         int n;
         cin>>n;
-        vector<vector<char>>arr(2);
+        vector<vector<char> >arr(2);
         for(int i = 0;i<2;i++)
         {
             for(int j = 0;j<n;j++)
