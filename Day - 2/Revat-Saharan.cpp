@@ -13,12 +13,8 @@ int main(){
         string a;
         string b;
         cin>>n;
-        for(int i=0;i<n;i++){
-            cin>>a[i];
-        }
-        for(int i=0;i<n;i++){
-            cin>>b[i];
-        }
+        cin>>a;
+        cin>>b;
         
         for(int i=0;i<n;i++){
             if(a[i]=='1' && b[i]=='1'){
