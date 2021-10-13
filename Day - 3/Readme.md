@@ -19,7 +19,7 @@ Through rotation and translation 🔁of the pieces, determine if it is possible 
 
 The test consists of multiple test cases. The first line contains <strong> a single integer t (1≤t≤1000) </strong>— the number of test cases. Next t lines contain descriptions of test cases.<br>
 
-Each test case contains two integers <strong> n and m (1≤n,m≤105) </strong>.<br>
+Each test case contains two integers <strong> n and m (1≤n,m≤1e5) </strong>.<br>
 
 <strong>Output</strong>
 
