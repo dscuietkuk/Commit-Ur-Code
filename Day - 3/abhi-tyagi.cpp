@@ -2,17 +2,17 @@
 using namespace std;
 
 int main() {
-    int T, x;
+    int T;
     cin>>T;
     while(T--) {
         int n,m;
         cin>>n;
         cin>>m;
-        if((m>2)&&(n>2)) {
-            cout<<"NO"<<endl;        
+        if((n==1)||(m==1)||((n==2)&&(m==2))) {
+            cout<<"YES"<<endl;        
         }
         else {
-            cout<<"YES"<<endl;
+            cout<<"NO"<<endl;
         }
     }
     return 0;
