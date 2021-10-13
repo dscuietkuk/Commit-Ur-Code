@@ -8,17 +8,13 @@ public class Puzzle
 		BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(System.out));
 		int t=Short.parseShort(br.readLine());
 		String str[];
-		while(t>0&&t<=100){
+		while(t>0&&t<=1000){
 		    str=br.readLine().split(" ");
 		    int n=Integer.parseInt(str[0]),m=Integer.parseInt(str[1]);
-		    if((n>=1&&n<=105)&&(m>=1&&m<=105)){
 		       if((n==1||m==1)||(n==2&&m==2))
 		         bw.write("YES"+"\n");
 		       else
 		         bw.write("NO"+"\n");
-		    }
-		    else
-		       bw.write("NO"+"\n");
 		    t--;
 		}
 		bw.flush();
