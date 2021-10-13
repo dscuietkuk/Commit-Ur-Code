@@ -34,7 +34,7 @@ GDSC<br>
 GSDC<br>
 
 Output:<br>
-0<br>
+NO<br>
 
 </strong>
 
