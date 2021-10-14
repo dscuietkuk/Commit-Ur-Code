@@ -12,7 +12,7 @@ public class Rotate
 		    String s2=br.readLine();
 		    String s3="";
 		    s3=s1+s1;
-		    if(s3.contains(s2)==true)
+		    if(s1.length()==s2.length()&&(s3.contains(s2)==true))
 		        bw.write("YES"+"\n");
 		    else
 		        bw.write("NO"+"\n");
