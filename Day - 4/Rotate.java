@@ -6,8 +6,8 @@ public class Rotate
 	public static void main (String[] args) throws java.lang.Exception
 	{	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(System.out));
-		int t=Short.parseShort(br.readLine());
-		while(t>0&&t<=1000){
+		int t=Integer.parseInt(br.readLine());
+		while(t>0){
 		    String s1=br.readLine();
 		    String s2=br.readLine();
 		    String s3="";
