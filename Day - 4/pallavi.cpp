@@ -3,11 +3,15 @@
 using namespace std;
 bool check(string a, string b)
 {
+    if(a.size()!=b.size())
+       return false;
+    
     string rotate = a + a;
     if (rotate.find(b) != -1)
         return true;
     else
         return false;
+    
 }
 int main()
 {
