@@ -1,4 +1,4 @@
-for _ in range(int(input())):
+for _ in range(int(input())):  
   N=int(input())
   while(N!=1):
     print(N,end=" ")
