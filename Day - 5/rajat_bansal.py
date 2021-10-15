@@ -1,7 +1,6 @@
 for test_case in range(int(input())):
     n, k = map(int, input().split())
     points = sorted(list(map(int, input().split())))
-    print(points)
     police = 0
     saved = 0
     while points:
