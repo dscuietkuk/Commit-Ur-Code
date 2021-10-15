@@ -9,9 +9,12 @@ for _ in range(int(input())):
     i=0
     count=0
     while add<Z:
-        add=add+(Z-arr[i])
-        i=i+1
-    print(i-1)
-
-
-
+        try:
+            add=add+(Z-arr[i])
+            i=i+1
+        except IndexError:
+            break
+    if i<k:
+        print(i-1)
+    else:
+        print(i)                #Case when all theives escapes at Z
