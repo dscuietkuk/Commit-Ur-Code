@@ -10,11 +10,8 @@ for i in range(int(input())):
             break
         l[-1] += 1
         p += 1
-        if len(l) == 1:
-            if l[0]  == p + 1 :
-                save += 1
-                break
-        if l[-1] == n+1:
+
+        if l[-1] == n:
             save += 1
             l.remove(l[-1])
         else:
