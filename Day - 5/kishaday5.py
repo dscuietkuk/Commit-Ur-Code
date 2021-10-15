@@ -10,7 +10,7 @@ for i in range(0,t):
     lis.reverse()  
     curr = 0
     counter = 0
-    while(lis[counter]>curr):
+    while(counter<k and lis[counter]>curr):
         curr = curr + (n-lis[counter]) 
         counter = counter + 1
     print(counter)
