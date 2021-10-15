@@ -8,7 +8,6 @@ for _ in range(int(input())):
     escaped = 0
     while x:
         x[-1] += 1 # moving thief
-        x.sort()
         # condition where thief escapes
         if x[-1] == n:
             escaped += 1
