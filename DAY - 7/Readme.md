@@ -3,7 +3,7 @@
 
 <br>
 
-You are given a range of positive integers **L,L+1,…R**. Find an integer **X** greater than **1** which is coprime with all the integers in this range (does not share any common factors greater than **1** with any of these integers). In addition, **X** must not exceed **2⋅10<sup>*9*</sup>**.
+You are given a range of positive integers **L,L+1,…R**. Find an integer ***X*** greater than **1** which is coprime with all the integers in this range (does not share any common factors greater than **1** with any of these integers). In addition, **X** must not exceed **2⋅10<sup>*9*</sup>**.
 
 If there are multiple solutions satisfying these conditions, you may find any one of them. It is guaranteed that for the given constraints, at least one such integer ***X*** exists.
 
