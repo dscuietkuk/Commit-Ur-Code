@@ -18,9 +18,6 @@ int main()
         {
             cout<<p/(y*a+c)<<endl;
         }
-        
-        
     }
-
     return 0;
 }
