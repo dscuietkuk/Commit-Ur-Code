@@ -6,7 +6,7 @@ def checkPrime(x):
     elif(x % 2 == 0 or x % 3 == 0):
         return False
     for i in range(5, int(x ** 0.5) + 1, 6):
-        if x % 1 == 0:
+        if x % i == 0:
             return False
     return True
 
