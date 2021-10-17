@@ -9,7 +9,6 @@ int main()
     {
         int l, r;
         cin >> l >> r;
-
-        cout << 1000003 << endl;
+        cout << "1000003" << endl;
     }
 }
