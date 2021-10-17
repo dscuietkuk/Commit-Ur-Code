@@ -7,16 +7,9 @@ int main()
     cin >> t;
     while (t--)
     {
-        long long int l, r, j = 2;
+        int l, r;
         cin >> l >> r;
-        for (long long int i = l; i <= r; i++)
-        {
-            if (__gcd(i, j) != 1)
-            {
-                i = l;
-                j++;
-            }
-        }
-        cout << j << endl;
+
+        cout << 1000003 << endl;
     }
 }
